@@ -1,0 +1,15 @@
+server:
+  port: 2023
+  
+spring:
+  application:
+    name: SpringCloudEmployeeProducer
+    
+eureka:
+  instance:
+    hostname: localhost
+  client: 
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+defaultZone: http://localhost:2022/eureka/
