@@ -1,7 +1,7 @@
 server:
   port: 2022
   
- spring:
+spring:
   application:
     name: SpringCloudEurekaServer
     
@@ -12,4 +12,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      defaultZone: http://localhost:2022/eureka/
+     defaultZone: http://localhost:2022/eureka/
