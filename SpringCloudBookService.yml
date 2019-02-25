@@ -1,0 +1,15 @@
+server:
+  port: 3030
+  
+spring:
+  application:
+    name: SpringCloudBookService
+    
+eureka:
+  instance:
+    hostname: localhost
+  client: 
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+defaultZone: http://localhost:2022/eureka/
